@@ -1,4 +1,6 @@
 import com.qa.BadCalc;
+import com.qa.MyConsoleReader;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -16,6 +18,7 @@ public class Main {
 
         }
 
-
+        MyConsoleReader mcr = new MyConsoleReader();
+        mcr.readInputPrint();
     }
 }
